@@ -1,0 +1,10 @@
+{
+        "debugEn": true,
+        "rpcUrl": "127.0.0.1",
+        "rpcPort": "18443",
+        "rpcUser": "jbaczuk",
+        "rpcPassword": "parcel-adoptive-grunt",
+        "rpcSslEn": false,
+        "mongoDbUrl": "mongodb://localhost:27017",
+        "dbName": "bitcoin_regtest"
+}

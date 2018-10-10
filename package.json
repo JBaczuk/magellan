@@ -1,0 +1,27 @@
+{
+  "name": "magellan",
+  "version": "1.0.0",
+  "description": "Bitcoin explorer tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBaczuk/magellan.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "explorer",
+    "blockchain"
+  ],
+  "author": "Jordan Baczuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBaczuk/magellan/issues"
+  },
+  "homepage": "https://github.com/JBaczuk/magellan#readme",
+  "dependencies": {
+    "magellan-block-parser": "git+https://git@github.com/jbaczuk/magellan-block-parser.git"
+  }
+}
