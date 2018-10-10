@@ -1,0 +1,2 @@
+# magellan
+Bitcoin explorer tools
