@@ -6,5 +6,6 @@
         "rpcPassword": "parcel-adoptive-grunt",
         "rpcSslEn": false,
         "mongoDbUrl": "mongodb://localhost:27017",
-        "dbName": "bitcoin_regtest"
+        "dbName": "bitcoin_regtest",
+        "debugEn": false
 }

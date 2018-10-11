@@ -6,6 +6,7 @@ async function main() {
     let blockParser = new BlockParser(config.rpcUrl, config.rpcPort, config.rpcUser, config.rpcPassword, config.rpcSslEn, config.mongoDbUrl, config.dbName, config.debugEn)
     
     try {
+        blockParser.resetDatabase()
         await blockParser.parseBlocks()
     } catch (err) {
         throw Error(`[parseBlock] parseBlocks failed ${err}`)
