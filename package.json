@@ -22,6 +22,12 @@
   },
   "homepage": "https://github.com/JBaczuk/magellan#readme",
   "dependencies": {
-    "magellan-block-parser": "git+https://git@github.com/jbaczuk/magellan-block-parser.git"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "magellan-block-parser": "git+https://git@github.com/jbaczuk/magellan-block-parser.git",
+    "mongodb": "^3.1.8",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
   }
 }
